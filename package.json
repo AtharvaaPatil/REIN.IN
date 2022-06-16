@@ -1,0 +1,25 @@
+{
+  "name": "rein",
+  "version": "1.0.0",
+  "description": "## What is REIN ???  ### I named it rein as it stands for re inspire XD",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack -d --mode development",
+    "build-prod": "webpack -p --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SohanR/twidel-multi-page-theme.git"
+  },
+  "author": "sohanR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SohanR/twidel-multi-page-theme/issues"
+  },
+  "homepage": "https://github.com/SohanR/twidel-multi-page-theme#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
